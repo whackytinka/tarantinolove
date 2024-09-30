@@ -1,0 +1,76 @@
+@font-face 
+{
+        font-family: GravitasOne-Regular;
+        src: url("./Fonts/Gravitas_One/GravitasOne-Regular.ttf");
+}
+h2
+{
+        font-family: GravitasOne-Regular;
+}
+body
+{
+        background-color: black;
+        margin: 0;
+}
+.opener
+{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+}
+.opener img
+{
+        height: calc(100% - 20px);
+        -webkit-filter: invert(1);
+        filter: invert(1);
+        margin-top: 20px;
+}
+.opener h2
+{
+        color: rgb(244, 240, 234);
+        width: 800px;
+        text-align: justify;
+        margin-right: 100px;
+        position: relative;
+}
+.opener span
+{
+        color: blanchedalmond;
+        font-size: 65%;
+}
+button
+{
+        text-decoration: none;
+        color: red;
+        font-family: GravitasOne-Regular;
+        font-size: 110%;
+        background-color: black;
+        border: none;
+        display: block;
+        position: absolute;
+        left: 40%;
+        bottom: -75px;
+        cursor: pointer;
+}
+button:hover
+{        
+        scale: 1.1;
+}
+#Hand
+{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.5s;
+}
+.show
+{
+
+        height: 100vh;
+}
+.hide
+{
+        height: 0;
+}

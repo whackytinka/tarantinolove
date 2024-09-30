@@ -1,0 +1,63 @@
+@font-face 
+{
+    font-family: GravitasOne-Regular;
+     src: url("../Fonts/Gravitas_One/GravitasOne-Regular.ttf");
+}
+body
+{
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+h2
+{
+    font-family: GravitasOne-Regular;    
+    color: rgb(211, 194, 168);
+    margin-left: 30px;
+}
+ul
+{
+    font-family: GravitasOne-Regular; 
+    font-size: 140%;   
+    color: rgb(211, 194, 168);
+    margin-left: 30px;
+    list-style: none;
+}
+ul a
+{
+    font-family: GravitasOne-Regular; 
+    text-decoration: none;
+    color: red;
+    background-color: none;
+    font-size: 70%;
+}
+.plsno
+{
+    font-family: GravitasOne-Regular; 
+    font-size: 90%;
+    color: bisque;
+    text-align: center;
+    margin-top: 100px;
+}
+h4 a
+{
+    text-decoration: none;
+    color: red;
+    background-color: none;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 20px;
+}
+p a
+{
+    font-family: GravitasOne-Regular;
+    font-size: 70%;
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.379);
+    background-color: none;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    bottom: 10px;
+}

@@ -1,0 +1,122 @@
+@font-face 
+{
+    font-family: GravitasOne-Regular;
+    src: url("../Fonts/Gravitas_One/GravitasOne-Regular.ttf");
+}
+@font-face 
+{
+    font-family: AlfaSlabOne-Regular;
+    src: url("../Fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf");
+}
+@keyframes fadein 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeintwo 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeinthree
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+body
+{
+    background-color: black;
+    margin: 0;
+}
+main
+{
+    margin-top: 100px;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 32, 32, 0.646);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    z-index: 9999;
+}
+header ul
+{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+header a
+{
+    text-decoration: none;
+    font-family: GravitasOne-Regular;
+    color: rgb(59, 55, 48);
+    display: inline-block;
+    padding: 3px;
+    transition: all 0.75s;
+}
+header a:hover
+{
+    background-color: rgb(245, 6, 6);
+    scale: 1.25;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+h1
+{
+    font-family: GravitasOne-Regular;
+    font-size: 250%;
+    color: red;
+    margin-left: 35px;
+    animation-delay: 2s;
+    animation: fadein 4s; 
+}
+.why
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: bisque;
+}
+.why img
+{
+    height: 600px;
+    padding-bottom: 100px;
+    animation-delay: 4s;
+    animation: fadeintwo 9s;
+}
+.why p
+{
+    font-family: AlfaSlabOne-Regular;
+    font-size: 125%;
+    text-align: justify;
+    width: 550px;
+    animation-delay: 6s;
+    animation: fadeinthree 15s;
+}
+footer
+{
+    border-top: 1px solid rgb(99, 5, 5);
+}
+footer ul
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+    color: gray;
+    font-size: 50%;
+    font-family: AlfaSlabOne-Regular;
+}
+footer a
+{
+    text-decoration: none;
+    color: gray;
+}
